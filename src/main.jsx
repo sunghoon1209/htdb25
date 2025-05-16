@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/2025/themaison_landing">
+  <BrowserRouter basename="/2025/htdb_landing">
     <App />
   </BrowserRouter>
   

@@ -76,28 +76,28 @@ const ExhibitionGuide = () =>{
                 <dl className="info-list">
                     <div className="info-row">
                         <dt>명 칭</dt>
-                        <dd>2025 더 메종 (THE MAISON 2025)</dd>
+                        <dd>2025 부산 홈·테이블데코페어</dd>
                     </div>
                     <div className="info-row">
                         <dt>기 간</dt>
-                        <dd>2025. 5. 8(목) - 11(일)</dd>
+                        <dd>2025. 6. 26(목) ~ 29(일)</dd>
                     </div>
                     <div className="info-row">
                         <dt>시 간</dt>
-                        <dd>목·금 10 - 18시, 토 일 10 - 19시</dd>
+                        <dd>목 금 10 ~ 17시, 토일 10 ~ 18시</dd>
                     </div>
                     <div className="info-row">
                         <dt>장 소</dt>
-                        <dd>서울 코엑스 A홀</dd>
+                        <dd>부산 벡스코 1전시장 3홀</dd>
                     </div>
                     <div className="info-row">
                         <dt>입 장</dt>
                         <dd>초청장 등록자 무료 입장</dd>
                     </div>
-                    <div className="info-row">
+                    {/* <div className="info-row">
                         <dt>후 원</dt>
                         <dd>CJ온스타일</dd>
-                    </div>
+                    </div> */}
                 </dl>
 
             </section>
@@ -119,26 +119,15 @@ const ExhibitionGuide = () =>{
                 <div className="cont-img">
                     <img src={otherExhi}/>
                 </div>
-                <div className="other-desc">
+                {/* <div className="other-desc">
                     <h3>2025 디자인살롱 서울 컨퍼런스</h3>
                     <p>5. 8(목) - 9(금)</p>
                     <p>서울 코엑스 컨퍼런스룸 402호</p>
                     <p>*컨퍼런스 티켓을 별도로 예매하셔야 합니다.</p>                    
                 </div>
-                <button className="btn_more" onClick={() => handleMove("/DesignSalon")}>자세히보기</button>               
+                <button className="btn_more" onClick={() => handleMove("/DesignSalon")}>자세히보기</button>                */}
             </section>
-            <section className="other-exhi">
-                <div className="cont-img">
-                    <img src={otherExhi2}/>
-                </div>
-                <div className="other-desc">
-                    <h3>FuturEspace 2025 <br/>인테리어 트랜드 살롱</h3>
-                    <p>5. 10(토) 10:00~17:00</p>
-                    <p>서울 코엑스 컨퍼런스룸 300호</p>
-                    <p>*등록비는 유료이며 선착순 120명 대상으로 진행됩니다.</p>                    
-                </div>
-                <a className="btn_more" href="https://www.kiid.or.kr/board/?_0000_method=view&ncode=a002&num=261&page=1">자세히보기</a>               
-            </section>
+           
             
 
         </motion.div>

@@ -10,7 +10,7 @@ const Header = ({ current }) => {
 
     return (
         <header>
-            <h1>THE MAISON <span>2025</span></h1>
+            <h1>HOME TABLE DECO FAIR BUSAN</h1>
             <nav>
                 <ul>
                     <li className={current === 'guide' ? 'on' : ''}>
